@@ -2,17 +2,18 @@
   {
     "type": "container",
     "title": "SABnzbd",
-     "categories": ["Downloading"],
+    "name": "SABnzbd",
+    "categories": ["Downloading"],
     "description": "SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
     "categories": ["docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/sabnzbd/sabnzbd/master/interfaces/Config/templates/staticcfg/ico/apple-touch-icon-180x180-precomposed.png",
-    "image": "registry:latest",
+    "image": "linuxserver/sabnzbd:latest",
     "privileged": false,
      "interactive": false,
   "restart_policy": "always",
     "hostname": "always",
-
+  "network": "bridge",
     "ports": [
       "8080/tcp", "9090/tcp"
     ],
