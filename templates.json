@@ -12,7 +12,7 @@
     "privileged": false,
      "interactive": false,
   "restart_policy": "always",
-    "hostname": "always",
+    "hostname": "sab",
   "network": "bridge",
     "ports": [
       "8080/tcp", "9090/tcp"
