@@ -49,7 +49,6 @@
       ],
     "note": "Github: <a href=\"https://github.com/linuxserver/docker-sabnzbd\" rel=\"nofollow\">linuxserver/docker-sabnzbd</a><br/>Docker Hub: <a href=\"https://hub.docker.com/r/linuxserver/sabnzbd/\" rel=\"nofollow\">linuxserver/docker-sabnzbd</a>"
   },
-  [
   {
     "type": "container",
     "title": "Registry",
@@ -886,5 +885,4 @@
       }
     ]
   }
-]
 ]
